@@ -13,15 +13,15 @@
   <body>
     <div class="bg-image">
       <header>      
-        <nav class="navbar navbar-expand-md bg-mdark mb-3">
-          <div class="container-fluid container" >
+        <nav class="navbar navbar-expand-md bg-dark mb-3">
+          <div class="container-fluid" >
+            <a class="navbar-brand" href="#">Maartens Workshop</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#">Navbar</a>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav"> 
-                <a class="nav-link" aria-current="page" href="index.html">Start</a>
+              <div class="navbar-nav "> 
+                <a class="nav-link active" aria-current="page" href="index.html">Start</a>
                 <a class="nav-link" href="ervaring.html">Ervaring</a>
                 <a class="nav-link" href="hobby.html">Hobby</a>
                 <a class="nav-link" href="cv.html">CV</a>
@@ -32,42 +32,77 @@
         </nav>
       </header>
       
-      <section class="text-center bg-light border-bottom border-dark border-2 border-opacity-25 px-4 pt-5 my-3 shadow">
-        <h1  class="display-4 fw-bold border-bottom border-2 border-warning w-25 m-auto" >Welkom</h1>
-      </section>
-      
-      <main class="container text-mlight">
-        <section class="my-3 p-3 bg-mdark">
-          <h2>introductie</h2>
+      <section class="my-5 mx-auto text-center text-light border-bottom border-dark border-2 border-opacity-25 px-4 pt-5 my-3 bg-darkfaded">
+        <h1  class="display-4 fw-bold border-bottom border-2 border-warning w-25 m-auto m-text-shadowed" >Welkom</h1>
+        <section class="p-3 mx-auto">
+          <h2 class="m-text-shadowed">introductie</h2>
           <p>Mijn naam is Maarten Michiels en dit is mijn online portfolio en project voor statische websites.
             Ik ben een student programmeren aan de Thomas More in Geel en hobby collage artist. Deze website is bedoeld om te dienen als een showcase van mijn kunnen en om contact met mij kunnen op te nemen. Daarvoor kan je mijn portfolio’s terugvinden onder ervaring voor de professionele IT gerichte projecten en onder hobby voor mijn persoonlijke knutselwerken.
           </p>
           <p>Daarnaast kan je mijn opleidingen en achtergrond terugvinden op de cv-pagina en
-            indien je contact met mij wil opnemen doe je dat via de contact pagina.
+            indien je contact met mij wil opnemen doe je dat via de <a href="contact.html" class="badge rounded-pill text-dark bg-warning" >contact pagina.</a>
           </p>
         </section>
-        <section class="my-3 p-3 bg-mdark">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus voluptate a reiciendis. Impedit odio laborum, reiciendis esse cum soluta quas dolorem asperiores ratione accusamus, quia quae officiis rem. Illum, explicabo!
-          Repellendus veniam quidem ea temporibus culpa voluptas voluptatum, voluptatem iusto fuga quisquam facere unde quos, ipsam sequi explicabo blanditiis tempora aspernatur exercitationem laborum. Mollitia ad at, enim voluptatibus labore ullam?
-          Dolor a, fugiat repellendus rerum ipsa optio tenetur, repudiandae, sunt commodi nostrum accusamus magnam ad. Fugit nobis exercitationem vero cumque odio qui facilis? Minus quasi dolores error voluptates impedit in!
-          Quasi dolorum totam quibusdam, consequatur consequuntur cumque quod deleniti aut asperiores minus et veritatis odio, sit velit error sed eum. Veniam odio ea itaque fugit consectetur perspiciatis magnam et non.
-          Laboriosam inventore alias fugit delectus veniam magni odit, eaque dolor? Repellat amet reprehenderit quas dolorem! Possimus illo totam explicabo voluptate quae omnis ipsam rem! Quos rerum corporis et dolor totam.
-          Aliquam saepe ut dolore eos quas reiciendis possimus! Est illum, adipisci dolore tenetur eaque ipsa esse, facilis ex in inventore odit voluptate dolorum quidem molestias repudiandae unde eveniet provident sequi!
-          Odit est perferendis fugiat quis, maiores harum assumenda molestiae eos, architecto ex soluta a nesciunt ratione voluptatem? Quasi, amet labore porro debitis natus, ea illo earum veniam fugit aspernatur autem.
-          Quos consectetur eos debitis dolorum provident necessitatibus quasi aspernatur. Reprehenderit nisi repudiandae, tenetur aspernatur libero officiis eveniet, porro rerum molestias, cumque necessitatibus! Commodi sequi quasi fugiat expedita optio, eos omnis.
-          Omnis quasi veniam laboriosam recusandae iusto totam minus quae perferendis, tempora repudiandae hic ipsa eos, natus molestiae sapiente fugit nesciunt labore ullam repellendus nostrum. Mollitia quibusdam asperiores perspiciatis! Necessitatibus, accusamus.
-          Sequi quam similique quidem nisi quia vel earum enim illo a ullam, velit aperiam cum explicabo architecto hic atque aut laboriosam, porro praesentium ipsum. Aperiam dolor ducimus mollitia sit eius!00</p>
-        </section>
+      </section>
+      
+      <main class="container my-5 text-light">
+        <div class="row row-cols-md-3 gy-3 justify-content-center">
+          <div class="col-md">
+            <div class="card h-100 bg-darkfaded mx-auto">
+              <a href=""><img src="/img/hobby/hobby_quartz.jpg" class="card-img-top" alt="card hobby"></a>
+              <div class="card-body">
+                <h5 class="card-title text-primary">Hobby</h5>
+                <p class="card-text">Click hier om all mijn non proffesionele projecten te zien. Alles van photobewerking tot vector art!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card h-100 bg-darkfaded mx-auto">
+              <a href="ervaring.html"><img src="/img/ervaring/ervaring_ex1.png" class="card-img-top" alt="card Ervaring"></a>
+              <div class="card-body">
+                <h5 class="card-title text-primary">Ervaring</h5>
+                <p class="card-text">Hier vind je mijn meer proffesionele projecten. Momenteel is dit vooral een collectie opdrachten in het kader van leren programmeren in C#.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card h-100 bg-darkfaded mx-auto">
+              <a href="cv.html"><img src="/img/profile.jpg" class="card-img-top" alt="card CV"></a>
+              <div class="card-body">
+                <h5 class="card-title text-primary">CV</h5>
+                <p class="card-text">Click hier om naar mijn CV te gaan.</p>
+              </div>
+            </div>
+          </div>
+          
+                   
+        </div>
       </main>
-      <footer>
-        <p><a href="#">back to top</a></p>
-        <ul>
-          <li><a href="index.html">Start</a></li>
-          <li><a href="ervaring.html">Ervaring</a></li>
-          <li><a href="hobby.html">Hobby</a></li>
-          <li><a href="cv.html">CV</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
+      <footer class="mt-5 py-5 bg-darkfaded m-text-shadowed text-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-sm-4">
+              <p><a href="#">back to top</a></p>
+              <p class="text-muted text-primary">&copy; Maarten Michiels</p>
+            </div>
+            <div class="col-sm-4">
+              <ul class="list-unstyled">
+                <li><h4 class="text-primary">portfolio paginas</h4></li>
+                <li><a href="index.html">Start</a></li>
+                <li><a href="ervaring.html">Ervaring</a></li>
+                <li><a href="hobby.html">Hobby</a></li>
+             </ul>
+          </div>
+            <div class="col-sm-4">
+                <ul class="list-unstyled">
+                  <li><h4 class="text-primary">contact paginas</h4></li>
+                  <li><a href="cv.html">CV</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+               </ul>
+            </div>
+          </div>
+        </div>
       </footer>
     </div>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
