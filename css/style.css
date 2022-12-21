@@ -58,7 +58,13 @@ p{
 .nav-link, .navbar-brand,.text-primary{
     color: #68458a !important;
 }
-
+.btn-primary{
+    background-color: #68458a;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #9665c7;
+}
 .nav-link,.active{
     border-left: #2b2b2b;
     border-left-style: solid;
