@@ -95,6 +95,13 @@ p{
     border: 1px solid #ffc547;
 }
 
+.hideme:hover{
+    color: #ffffff00 !important;
+    background-color: #ffffff00 !important;
+    box-shadow: none;
+    text-shadow: none;
+}
+
 @media screen and (min-width: 768px) {
     .nav-link{
         overflow-wrap: normal;
