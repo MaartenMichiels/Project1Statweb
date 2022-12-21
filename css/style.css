@@ -24,7 +24,7 @@ p{
 
 .bg-image{
     background-color: #2b2b2b;
-    background-image: url("img/background_of_the_abyss.jpg");
+    background-image: url("../img/background_of_the_abyss.jpg");
     background-size: cover;
     min-height: 100vh;
     position: relative;
